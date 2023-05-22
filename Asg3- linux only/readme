@@ -1,0 +1,8 @@
+a. Download MPJ Express (mpj.jar) and unpack it.
+b. Set MPJ_HOME and PATH environment variables:
+   export MPJ_HOME=</path/to/mpj/>
+   export PATH=$MPJ_HOME/bin:$PATH
+
+c. javac -cp $MPJ_HOME/lib/mpj.jar ParallelSum.java  //compile
+
+d. $MPJ_HOME/bin/mpjrun.sh -np 10 ParallelSum    //run
